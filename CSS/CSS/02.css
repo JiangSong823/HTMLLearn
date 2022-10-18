@@ -1,0 +1,20 @@
+.divRpt{
+    width: 500px;
+    height: 100px;
+    background-color: #889999;
+    margin: auto;
+    margin-bottom: 3px;
+    color: #890826;
+    font-size: 20px;
+}
+#div02 {
+    width: 500px;
+    height: 200px;
+    background-color: #930322;
+    color: #22FF88;
+    font-size: 32px;
+}
+#div03 {
+    
+    background-color: #989;
+}
