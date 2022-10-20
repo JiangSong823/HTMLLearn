@@ -1,5 +1,5 @@
 body {
-    background: url(../../RES/2022/10.jpg) no-repeat center center/cover fixed;
+    background: url(../../RES/Image/2022/10.jpg) no-repeat center center/cover fixed;
 }
 
 .div01 {
@@ -49,4 +49,58 @@ body {
 }
 .paragraph>.p6{
     text-indent: 50px;
+}
+.paragraph>.p7{
+    text-transform:uppercase;
+}
+.paragraph>.p8{
+    width: 100px;
+    height: 30px;
+    background-color: #337744;
+    line-height: 30px;
+    font-size: 24px;
+    white-space: nowrap;
+}
+.paragraph>.p8_1{
+    width: 300px;
+    height: 30px;
+    background-color: #F96;
+    line-height: 30px;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.paragraph>.p8_2{
+    width: 300px;
+    height: 30px;
+    background-color: #88F;
+    line-height: 30px;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.paragraph>.p9{
+    color: #00F;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: antiquewhite;
+}
+.paragraph>.p9>img{
+    width: 80px;
+    height: 80px;
+    vertical-align: top;
+}
+
+.paragraph>.p10{
+    color: #00F;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #7F6;
+}
+.paragraph>.p10>img{
+    width: 80px;
+    height: 80px;
+    float: left;
 }
