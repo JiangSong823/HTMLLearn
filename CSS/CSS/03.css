@@ -22,3 +22,31 @@ body {
     text-align: center;
     color: brown;
 }
+
+.paragraph{
+    width: 500px;
+    height: 800px;
+    background-color: lightblue;
+}
+
+.paragraph>.p1{
+    letter-spacing: 8px;
+}
+.paragraph>.p2{
+    word-spacing: 8px;
+}
+.paragraph>.p3{
+    direction: rtl;
+}
+.paragraph>.p4{
+    text-decoration:line-through;
+}
+.paragraph>.p4_1{
+    text-decoration:underline;
+}
+.paragraph>.p5{
+    text-align: center;
+}
+.paragraph>.p6{
+    text-indent: 50px;
+}
