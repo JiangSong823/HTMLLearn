@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 50px;
+    background-color: #989;
+    margin: auto;
+   /* border: 5px solid #119;*/
+    border-left: 5px solid #11F;
+    border-right: 5px solid #1F1;
+    border-top: 5px solid #F11;
+    border-bottom: 10px double #1FF;
+}
