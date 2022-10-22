@@ -1,0 +1,33 @@
+/*div {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    float: left;
+}
+.div01 {
+    background-color: lightblue;
+    font: navy 22px/50px;
+}
+
+
+.div02 {
+    background-color: red;
+    font: black 22px/50px;
+}
+
+*/
+
+.class01>.p1 {
+    background-color: lightblue;
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.class01 + .p5{
+    background-color: aqua;
+}
+
+.p5~div {
+    color: navy;
+}
