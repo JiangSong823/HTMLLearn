@@ -17,6 +17,7 @@
 
 */
 
+/* 组合选择器示例
 .class01>.p1 {
     background-color: lightblue;
     font-size: 22px;
@@ -30,4 +31,34 @@
 
 .p5~div {
     color: navy;
+}
+*/
+/*属性选择器*/
+a{
+    color: gray;
+}
+a[target]{
+    color: red;
+}
+/*属性等于*/
+a[target=abc]{
+    color: navy;
+}
+/*CSS2：属性包含*/
+a[href~=".com"]{
+    background-color:lightblue;
+}
+
+/*CSS3：属性包含*/
+a[href*=".com"]{
+    background-color:lightcoral;
+}
+
+/*属性值开头*/
+a[href^="https"]{
+    background-color:lightgoldenrodyellow;
+}
+/*属性值结尾*/
+a[href$="html"]{
+    font-weight: bold;
 }
