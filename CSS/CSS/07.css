@@ -1,0 +1,28 @@
+
+div>a:nth-child(even){
+    color: rgb(21, 248, 173);
+    background-color: rgb(230, 70, 123);
+}
+div>a:nth-child(odd){
+    color:rgb(230, 70, 123);
+    background-color:  rgb(21, 248, 173); 
+}
+/*
+div>a:first-child{
+    color: lightcoral;
+}
+
+div>a:last-child{
+    color: #1FF;
+}
+
+div>a:nth-child(3){
+    color: white;
+    background-color: #333;
+}
+
+div>a:nth-last-child(2){
+    color: #FF2;
+    background-color: #88F;
+}
+*/
