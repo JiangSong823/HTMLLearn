@@ -1,0 +1,63 @@
+.navyTop{
+    width: 800px;
+    height: 60px;
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    background-color: blanchedalmond;
+}
+
+.navyTop>a::before{
+    content: "【";
+    color: red;
+}
+
+.navyTop>a::after{
+    content: "】";
+    color: green;
+}
+
+.navyTop>a:hover{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+.navyTop>a:hover::before{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+.navyTop>a:hover::after{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+.navyMid{
+    width: 800px;
+    height: 60px;
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    background-color: black;
+}
+.navyMid>a{
+    color: white;
+}
+.navyMid>a::before{
+    content: url("../../RES/Image/设置.svg");
+}
+/*
+.div01::first-letter{
+    color: black;
+    font-size: 36px;
+
+}
+.div01::first-line{
+    color: navy;
+    font-size: 28px;
+    font-weight: bold;
+}*/
