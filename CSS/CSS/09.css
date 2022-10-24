@@ -1,0 +1,29 @@
+/* id > 伪类 */
+#divNTop>a{
+    color: purple;
+}
+
+/* 伪类 = 属性 */
+.navyTop>a:first-child{
+    color: #333 !important;
+}
+
+/* 属性 > 类 */
+.navyTop>a[href]{
+    color: yellowgreen;
+}
+
+/* 类 > 标签 */
+.navyTop>a{
+    color: blue;
+}
+
+/* 标签 > 通配符 */
+a {
+    color: green;
+}
+
+/* 通配符 */
+* {
+    color: red;
+}
