@@ -1,0 +1,25 @@
+.navyTop>a{
+    /*padding: 20px;*/
+    border: navy solid 10px;
+}
+
+.navyTop>a:hover{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.div01{
+    width: 640px;
+    height: 426px;
+    padding: 20px;
+    border: navy 5px solid;
+    margin: 5px auto;
+    
+    border-left: navy solid 10px;
+    border-right: greenyellow groove 20px;
+    border-bottom: red solid 30px;
+    border-top: purple solid 40px;
+    padding: 10px 20px;
+    display: block;
+}
