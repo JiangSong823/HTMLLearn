@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    background-color: #333;
+}
+
+.row{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    background-color: lightskyblue;
+}
+.row>div{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
