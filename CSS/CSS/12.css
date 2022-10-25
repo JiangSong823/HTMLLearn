@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+}
+
+.navybk{
+    width: 1080px;
+    height: 230px;
+    margin: auto;
+    background-color: #333;
+}
+
+.navybk>.item{
+    float: left;
+    width: 200px;
+    height: 230px;
+    margin-right: 20px;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+.navybk>.item:last-child{
+    margin-right:0px;
+}
+.navybk>.img{
+    width: 200px;
+    height: 200px;
+}
+.navybk>.item>.ttl{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: lightsalmon;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.navybk>.item:hover {
+    border: white solid 5px;
+    box-sizing: border-box;
+}
