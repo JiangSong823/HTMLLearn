@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    width: 1200px;
+    height: 200px;
+    background-color: #333;
+    margin: auto;
+}
+
+.nav{
+    width: 1200px;
+    height: 200px;
+    background-color: #F3F;
+    margin: auto;
+}
+.bigimg{
+    width: 1200px;
+    height: 200px;
+    background-color: #F33;
+    margin: auto;
+}
+.content{
+    width: 1200px;
+    height: 200px;
+    background-color: #33F;
+    margin: auto;
+}
+.foot{
+    width: 1200px;
+    height: 200px;
+    background-color: #3F3;
+    margin: auto;
+}
