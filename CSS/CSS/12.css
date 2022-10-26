@@ -39,3 +39,12 @@ body{
     border: white solid 5px;
     box-sizing: border-box;
 }
+
+.content{
+    width: 1080px;
+    height: 400px;
+}
+
+#di:hover{
+    
+}
