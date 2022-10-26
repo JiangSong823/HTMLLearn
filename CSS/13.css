@@ -5,8 +5,8 @@
 
 .head{
     width: 1200px;
-    height: 50px;
-    background-color: #FF3;
+    height: 78px;
+    background-color: #FFF;
     margin: auto;
 }
 
@@ -42,19 +42,90 @@
 
 .bigimg{
     width: 1200px;
-    height: 200px;
+    height: 500px;
     background-color: #F33;
     margin: auto;
 }
-.content{
+
+.bigimg>img {
     width: 1200px;
-    height: 200px;
-    background-color: #33F;
+    height: 500px;
     margin: auto;
 }
+
+.content{
+    width: 1200px;
+    height: 500px;
+    background-color: #155;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.content>div{
+    float: left;
+}
+.content>.left{
+    width: 250px;
+    height: 500px;
+}
+.content>.right{
+    width: 950px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content>.right>h1,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.content>.right>h1{
+    color:rgb(231, 206, 206);
+}
+.content>.right>h2{
+    color:rgb(239, 250, 139);
+}
+.content>.right>p{
+    margin-top: 15px;
+    font-size: 24px;
+    color: white;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.content>.left>ul>li{
+    list-style-type: none;
+    width: 250px;
+    height: 78px;
+    background-color: #333;
+    margin: 5px 0px;
+    color: white;
+    font-size: 24px;
+    line-height: 78px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.content>.left>ul>li:hover{
+    color:#333;
+    background-color: rgb(104, 235, 235);
+    font-weight: bold;
+    font-size: 26px;
+}
+
 .foot{
     width: 1200px;
-    height: 200px;
-    background-color: #3F3;
+    height: 80px;
+    background-color: #555;
     margin: auto;
+    color: lightblue;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.foot>a{
+    color: lightblue;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
 }
