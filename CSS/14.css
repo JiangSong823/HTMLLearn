@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.d01{
+    width: 600px;
+    height: 150px;
+    background-color: lightcoral;
+    margin: 50px;
+    position: static;
+}
+
+.d01>.d02{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: cadetblue;
+    float: left;
+}
