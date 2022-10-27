@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 3460px;
+    background-image: url("../Res/Image/background/bk_V09.jpeg"); 
+    background-size: 100% 100%;
+}
+.head{
+    width: 1200px;
+    height: 78px;
+    background-color: transparent;
+    margin: auto;
+}
+
+.nav{
+    width: 1200px;
+    height: 50px;
+    background-color: #333;
+    margin: auto;
+}
+.nav>ul>li{
+    list-style-type: none;
+}
+.nav>ul>li>a{
+    float: left;
+    width: 120px;
+    height: 50px;
+    display: block;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.nav>ul>li>a:hover{
+    background-color: #ccc;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: #777 5px solid;
+    border-right: #777 5px solid;
+}
+
+.bigimg{
+    width: 1200px;
+    height: 500px;
+    background-color: #F33;
+    margin: auto;
+}
+
+.bigimg>img {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+.content{
+    width: 1200px;
+    height: 500px;
+    background-color: #155;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.content>div{
+    float: left;
+}
+.content>.left{
+    width: 250px;
+    height: 500px;
+}
+.content>.right{
+    width: 950px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content>.right>h1,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.content>.right>h1{
+    color:rgb(231, 206, 206);
+}
+.content>.right>h2{
+    color:rgb(239, 250, 139);
+}
+.content>.right>p{
+    margin-top: 15px;
+    font-size: 24px;
+    color: white;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.content>.left>ul>li{
+    list-style-type: none;
+    width: 250px;
+    height: 78px;
+    background-color: #333;
+    margin: 5px 0px;
+    color: white;
+    font-size: 24px;
+    line-height: 78px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.content>.left>ul>li:hover{
+    color:#333;
+    background-color: rgb(104, 235, 235);
+    font-weight: bold;
+    font-size: 26px;
+}
+.customService{
+    position: fixed;
+    right: 0px;
+    top: 40%;
+}
+.foot{
+    width: 1200px;
+    height: 80px;
+    background-color: #555;
+    margin: auto;
+    color: lightblue;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.foot>a{
+    color: lightblue;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
