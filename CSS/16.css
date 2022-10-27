@@ -3,15 +3,21 @@
     padding: 0px;
 }
 
+body{
+    height: 3460px;
+    background-image: url("../Res/Image/background/bk_V09.jpeg"); 
+    background-size: 100% 100%;
+}
+
 .nav{
-    width: 1000px;
+    width: 1200px;
     height: 50px;
     background-color: #333;
     margin: 50px auto;
 }
 
 .nav>a{
-    width: 100px;
+    width: 120px;
     height: 50px;
     text-decoration: none;
     display: block;
@@ -33,7 +39,7 @@
 .nav>a:hover::before{
     content: "";
     display: block;
-    width: 100px;
+    width: 120px;
     height: 5px;
     background-color: red;
     position: relative;
@@ -43,7 +49,7 @@
 .nav>a:hover::after{
     content: "";
     display: block;
-    width: 100px;
+    width: 120px;
     height: 5px;
     background-color: red;
     position: relative;
@@ -51,21 +57,23 @@
     left: 0px;
 }
 
-.div01{
-    width: 100px;
-    height: 100px;
-    background-color: blanchedalmond;
-    margin: 30px;
+.customService{
+    position: fixed;
+    right: 0px;
+    top: 40%;
 }
 
-.div01:nth-child(2){
+.zindex{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(10, 10, 10, 0.5);
     position: relative;
-    left: 130px;
-    top: -130px;
+    margin: auto;
 }
 
-.div01:nth-child(3){
-    position: relative;
-    left: 260px;
-    top: -260px;
+.zindex>img{
+    position:absolute;
+    left:100px;
+    top:100px;
+    z-index: -2;
 }
