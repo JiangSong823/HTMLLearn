@@ -172,6 +172,71 @@ body{
     right: 0px;
     top: 40%;
 }
+
+.MyReport{
+    width: 1100px;
+    height: 40px;
+    background-color: rgba(173, 216, 230, 0.7);
+    margin: 10px auto;
+}
+.MyReport>div{
+    width: 550px;
+    height: 40px;
+}
+.MyReport>.Title{
+    float: left;
+    height: 40px;
+    font-size: 28px;
+    color: #222;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.MyReport>.Title>div{
+    float: left;
+}
+.MyReport>.Title>.icon>img{
+    width: 40px;
+    height: 40px;
+}
+
+.MyReport>.Title>span{
+    padding: 0px 10px;
+}
+
+.MyReport>.RptGroup{
+    float: right;
+}
+
+.MyReport>.RptGroup>a{
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #222;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.MyReport>.RptGroup>a:hover{
+    border-top: 3px #F33 solid;
+    border-bottom: 3px #F33 solid;
+    background-color: lightgoldenrodyellow;
+}
+
+.MyReport>.RptGroup>a::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .foot{
     width: 1200px;
     height: 80px;
